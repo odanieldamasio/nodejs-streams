@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Webstream Dashboard</title>
+</head>
+
+<body class="min-h-screen bg-zinc-50 text-zinc-900">
+
+    <header class="bg-white border-b border-zinc-200">
+        <div class="max-w-7xl mx-auto px-8 py-6">
+            <h1 class="text-3xl font-semibold tracking-tight">
+                Webstream é o Terror!
+            </h1>
+
+            <p class="text-sm text-zinc-500 mt-1">
+                Monitoramento em tempo real de eventos recebidos.
+            </p>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-8 py-8">
+
+        <div class="flex gap-3 mb-8">
+
+            <button
+                id="start"
+                class="px-4 py-2 bg-zinc-900 text-white text-sm font-medium border border-zinc-900 hover:bg-zinc-800 transition-colors">
+                Start
+            </button>
+
+            <button
+                id="stop"
+                class="px-4 py-2 bg-white text-zinc-700 text-sm font-medium border border-zinc-300 hover:bg-zinc-100 transition-colors">
+                Stop
+            </button>
+
+        </div>
+
+        <section
+            id="cards"
+            class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+
+        </section>
+
+    </main>
+
+    <script type="module" src="index.js"></script>
+
+</body>
+</html>
