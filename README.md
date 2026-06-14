@@ -43,7 +43,6 @@ npm install
 ### Start the application
 
 ```bash
-```bash
 cd app
 npm start
 cd ..
